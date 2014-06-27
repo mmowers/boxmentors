@@ -1,0 +1,688 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0px auto;
+    font-size: 14px;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+
+}
+
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+
+h2 {
+	font-size: 32px;
+	font-weight: 200;
+	margin-top: 0px;
+    margin-bottom: 0px;
+	color: #ffffff;
+}
+
+.boxmentors-title {
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+#mentors{
+    text-align: left;
+}
+.gender{
+    font-weight: bold;
+}
+.outer-person p{
+  margin: 0;
+}
+.outer-person{
+  margin-bottom: 20px;
+}
+.two-wide{
+    width: 44%;
+    float: left;
+    margin: 0 2%;
+}
+#heading p{
+    max-width: 900px;
+    margin: auto;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #eeeeee;
+}
+.email-link{
+    font-size: 16px;
+}
+
+img {
+    border: none;
+}
+
+a:link {
+color: #dddddd;
+text-decoration: none;
+font-size: 12px;
+border: none;
+}
+
+a:visited {
+color: #dddddd;
+text-decoration: none;
+font-size: 12px;
+border: none;
+}
+
+a:hover {
+color: #ffffff;
+text-decoration: none;
+font-size: 12px;
+border: none;
+}
+
+a:active {
+color: #ffffff;
+text-decoration: none;
+font-size: 12px;
+border: none;
+}
+
+
+.logo {
+    margin: 0px auto;
+    margin-bottom: 50px;
+    display: block;
+    width: 348px;
+    height: 70px;
+    text-align: center;
+    background: url(../img/logo.png);
+}
+
+.logo-mobile {
+    display: none;
+}
+
+
+.sticky-header {
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    left: 0;
+    top:0;
+    line-height: 64px;
+    background-color: #333333;
+    z-index: 99;
+}
+
+#sticky-logo {
+    float: left;
+}
+
+.button#sticky-right {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    line-height: 1.4;
+    float: right;
+}
+
+.sticky-container {
+    margin: 0px auto;
+    max-width: 945px;
+    padding: 0 40px;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
+/* Button */
+
+a.button {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 50px auto;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: none;
+    border: 3px solid #ffffff;
+    transition: 0.2s ease-in;
+    display: inline;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.button:hover, .button:focus {
+    border: 3px solid #289ee2;
+    background-color: transparent;
+    color: #289ee2;
+    outline: 0;
+}
+
+
+.button:active
+{
+    border: 1px solid #42b080;
+    background-color: none;
+    color: #42b080;
+} 
+
+
+.header {
+    height: 850px;
+    text-align: center;
+    background: url(../img/mentor_head.jpg) no-repeat center center fixed;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.notehead {
+    height: 32px;
+    width: 32px;
+    margin-left: 60px;
+    border-radius: 3px;
+}
+
+
+#top {
+    margin-top: 170px;
+    background: url(../img/nick.jpg);
+}
+
+#cen {
+    margin-top: 25px;
+    background: url(../img/sahil.jpg);
+}
+
+
+#highlight {
+    margin-top: 44px;
+    background: url(../img/highlight.png);
+    height: 18px;
+    width: 256px;
+    margin-left: 380px;
+}
+
+#annotation {
+    margin-top: 5px;
+    background: url(../img/anno.png);
+    height: 85px;
+    width: 291px;
+    margin-left: 364px;
+}
+
+
+#bot {
+    margin-top: 10px;
+    background: url(../img/brian.jpg);
+}
+
+
+#copy {
+    padding-top: 240px;
+}
+
+
+.row {
+    /*min-height: 672px;*/
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+#success-stories img, #team img{
+    margin-bottom: 20px;
+}
+
+
+#heading {
+    margin-top: 50px;
+}
+
+#left {
+    float: left;
+    height: 430px;
+    width: 250px;
+    margin-top: 10px;
+    background-color: #dddddd;
+}
+
+#mid {
+    float: left;
+    height: 440px;
+    width: 250px;
+    margin-left: 5px;
+    background-color: #fff;
+    z-index: 1;
+}
+
+#right {
+    float: right;
+    height: 430px;
+    width: 250px;
+    margin-top: 10px;
+    background-color: #dddddd;
+}
+
+
+#center {
+    margin: 0px auto;
+    height: 484px;
+    width: 945px;
+    background: url(../img/note.png);
+    display: block;
+    overflow: hidden;
+}
+
+#test {
+    position: relative;
+}
+
+#onbox {
+    margin: 0px auto;
+    position: absolute;
+    z-index: 1;
+    height: 486px;
+    width: 945px;
+    background: url(../img/mbp.png);
+    display: block;
+    overflow: hidden;
+}
+
+
+#lightbox {
+    margin: 0px auto;
+    margin-top: 39px;
+    margin-left: 32px;
+    position: absolute;
+    z-index: 2;
+    height: 451px;
+    width: 882px;
+    background: url(../img/lightbox.png);
+    display: block;
+    overflow: hidden;
+}
+
+
+#newnote {
+    width: 170px;
+    margin-top: 100px;
+    margin-left: 225px;
+}
+
+#left-comp {
+    float: left;
+    height: 430px;
+    width: 755px;
+    margin-top: 10px;
+    margin-left: 70px;
+    background: url(../img/macbook.png);
+}
+
+#right-comp {
+    position: relative;
+    left: 640px;
+    top: 50px;
+    height: 402px;
+    width: 190px;;
+    margin-top: 10px;
+    background: url(../img/phone.png);
+}
+
+.show-web {
+    margin: 0px auto;
+    margin-top: 71px;
+    /*height: 440px;*/
+    width: 945px;
+    text-align: center;
+    background-color: transparent;
+    display: block;
+}
+
+
+.show-tablet {
+    display: none;
+    }
+
+
+.show-mobile {
+    display: none;
+}
+
+
+.one{
+    background: #5390cb;
+}
+
+
+.two{
+    background: #323e4f;
+}
+
+
+.three{
+    background: #4c5d76;
+}
+
+.footer {
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    background-color: #333333;
+}
+
+
+/*-- TABLET -- */
+
+@media all and (min-width: 569px) and (max-width: 768px){
+
+    img {
+        width: 100%;
+    }
+
+    
+    h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #ffffff;
+    }
+
+    h2 {
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #ffffff;
+    }
+
+    p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    color: #eeeeee;
+    }
+
+    .logo-mobile {
+    display: none;
+    }
+
+ /* Button */
+
+    a.button {
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 16px;
+    margin: 50px auto;
+    border: 0 none;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #eeeeee;
+    background-color: none;
+    border: 1px solid #dddddd;
+    transition: 0.2s ease-in;
+    display: inline;
+    -webkit-font-smoothing: antialiased;
+    }
+
+    .button:hover, .button:focus {
+    border: 1px solid #1a74ba;
+    background-color: none;
+    color: #1a74ba;
+    outline: 0;
+    }
+
+    .button:active
+    {
+    border: 1px solid #196dae;
+    background-color: none;
+    color: #196dae;
+    } 
+
+    .header {
+    height: 928px;
+    text-align: center;
+    background: url(../img/mentor_head.jpg);
+    }
+
+    #copy {
+    padding-top: 300px;
+    }
+
+    .row {
+    height: 928px;
+    text-align: center;
+    overflow: hidden;
+    }
+
+    #heading {
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+
+    #tab-box {
+    margin: 0px auto;
+    display: block;
+    width: 301px;
+    height: 631px;
+    text-align: center;
+    background: url(../img/tab-mobile.png);
+
+    }
+
+    .show-web {
+    display: none;
+    }
+
+    .show-tablet {
+    margin: 0px auto;
+    margin-top: 20px;
+    height: auto;
+    width: 95%; 
+    background-color: transparent;
+    display: inline-block;
+    }
+
+    .show-mobile {
+    display: none;
+    }
+}
+
+
+
+
+
+/*-- MOBILE -- */
+
+@media all and (min-width: 320px) and (max-width: 568px){
+
+
+    img {
+    width: 75%;
+    height: auto;     
+    }
+
+
+    h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #ffffff;
+    }
+
+
+    h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #ffffff;
+    }
+
+
+    p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 35px;
+    color: #eeeeee;
+    }
+
+    .logo {
+    display: none;
+    }
+
+    .logo-mobile {
+    margin: 0px auto;
+    margin-bottom: 50px;
+    display: block;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background: url(../img/logo-mobile.png);
+    }
+
+    /* Button */
+
+    a.button {
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 16px;
+    margin: 50px auto;
+    border: 0 none;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #eeeeee;
+    background-color: none;
+    border: 1px solid #dddddd;
+    transition: 0.2s ease-in;
+    display: inline;
+    -webkit-font-smoothing: antialiased;
+    }
+
+    .button:hover, .button:focus {
+    border: 1px solid #1a74ba;
+    background-color: none;
+    color: #1a74ba;
+    outline: 0;
+    }
+
+    .button:active
+    {
+    border: 1px solid #196dae;
+    background-color: none;
+    color: #196dae;
+    } 
+
+    .header {
+    height: 548px;
+    text-align: center;
+    background: url(../img/mentor_head.jpg);
+    }
+
+    #mobile-box {
+    text-align: center;
+    height: 367px;
+    width: 175px;
+    background: url(../img/mob-mobile.png);
+    }
+
+    #copy {
+    padding-top: 130px;
+    }
+
+    .row {
+    height: 548px;
+    text-align: center;
+    overflow: hidden;
+    }
+
+    #heading {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+
+    .show-web {
+    display: none;
+    }
+
+    .show-tablet {
+    display: none;
+    }
+
+    .show-mobile {
+    margin: 0px auto;
+    height: 404px;
+    overflow: hidden;
+    background: transparent;
+    display: inline-block;
+    }
+
+    #one{
+    height: 400px;
+    }
+
+    #two{
+    height: 575px;
+    }
+
+    #mobile {
+    height: 404px;
+    width: 310px;
+    background: url(../img/mobilemobile.png);
+    }
+
+    a:link {
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 10px;
+    }
+
+    a:visited {
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 10px;
+    }
+
+    a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
+    }
+
+    a:active {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
+    }
+
+}
+
+
+
+
+
+
+
