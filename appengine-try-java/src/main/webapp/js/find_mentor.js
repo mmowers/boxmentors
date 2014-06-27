@@ -43,22 +43,26 @@
     "name" : "Helen"
     },
     ];
-    for (i = 0; i < People.length; i++) {
-      var personHTML =
-      '<div class="outer-person wow bounceInLeft">'+
-        '<p class="gender">'+People[i]['gender']+'</p>'+
-        '<p class="person-office">Office: '+People[i]['office']+'</p>'+
-        '<p class="person-strengths">Mentoring Strengths:  '+People[i]['mentoring strengths']+'</p>'+
-        '<p class="person-years">'+People[i]['years experience']+' years experience</p>'+
-        '<p class="person-interests">Personal Interests: '+People[i]['personal interests']+'</p>'+
-        '<p class="management-style">Management Style: '+People[i]['management style']+'</p>'+
-        '<p class="career-challenges">Career Challenges: '+People[i]['career challenges']+'</p>'+
-        '<p class="professional-interests">Professional Interests: '+People[i]['professional interests']+'</p>'+
-        '<p class="department">Department: '+People[i]['department']+'</p>'+
-        '<p class="email"><a class="email-link" href="mailto:'+People[i]['email address']+'" target="_top">Contact</a></p>'+
-      '</div>'
-      $('#mentors').append(personHTML);
-    }
+    $.getJSON('/mentorMatch', function(data) {
+        People = data;
+        for (i = 0; i < People.length; i++) {
+          var personHTML =
+          '<div class="outer-person wow bounceInLeft">'+
+            '<p class="gender">'+People[i]['gender']+'</p>'+
+            '<p class="person-office">Office: '+People[i]['office']+'</p>'+
+            '<p class="person-strengths">Mentoring Strengths:  '+People[i]['mentoring strengths']+'</p>'+
+            '<p class="person-years">'+People[i]['years experience']+' years experience</p>'+
+            '<p class="person-interests">Personal Interests: '+People[i]['personal interests']+'</p>'+
+            '<p class="management-style">Management Style: '+People[i]['management style']+'</p>'+
+            '<p class="career-challenges">Career Challenges: '+People[i]['career challenges']+'</p>'+
+            '<p class="professional-interests">Professional Interests: '+People[i]['professional interests']+'</p>'+
+            '<p class="department">Department: '+People[i]['department']+'</p>'+
+            '<p class="email"><a class="email-link" href="mailto:'+People[i]['email address']+'" target="_top">Contact</a></p>'+
+          '</div>'
+          $('#mentors').append(personHTML);
+        }
+        
+    });
     $('#search-people').on("keyup", function(){
       var searchTerm = $(this).val().toLowerCase();
       if(searchTerm.length){
