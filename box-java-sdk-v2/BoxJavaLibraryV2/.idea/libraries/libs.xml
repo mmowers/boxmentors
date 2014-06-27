@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/commons-io-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/powermock-easymock-1.4.12-full.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-core-2-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/junit-4.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cglib-nodep-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/httpcore-4.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-codec-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/robolectric-1.2-20121030.213744-165-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-annotations-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-lang-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/httpclient-4.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/httpclient-cache-4.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/easymock-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-databind-2-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/httpmime-4.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

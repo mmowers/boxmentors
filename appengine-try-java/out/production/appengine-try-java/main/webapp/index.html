@@ -10,7 +10,7 @@
     <script>
 $(document).ready(function() {
   $.getJSON('/mentorMatch', function(data) {
-    $('#result').html("Name: " + data[0].name + "Email: " + data[0].email);
+    $('#result').html("Name: " + data[0].name + "<br/>Email: " + data[0]["email address"]);
   });
 });
     </script>

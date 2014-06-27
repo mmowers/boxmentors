@@ -4,6 +4,9 @@
     <facet type="google-app-engine" name="Google App Engine">
       <configuration>
         <sdk-home-path>$MODULE_DIR$/../appengine-java-sdk-1.9.6</sdk-home-path>
+        <files-to-enhance>
+          <file path="$MODULE_DIR$/src" />
+        </files-to-enhance>
       </configuration>
     </facet>
     <facet type="web" name="Web">
@@ -36,6 +39,11 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="AppEngine Dev 1.9.6" level="application_server_libraries" />
     <orderEntry type="library" name="AppEngine API" level="project" />
+    <orderEntry type="library" name="javax.servlet:javax.servlet-api:3.0.1" level="project" />
+    <orderEntry type="library" name="boxjavalibv2-3.0.11-SNAPSHOT-javadoc" level="project" />
+    <orderEntry type="library" name="boxjavalibv2-3.0.11-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="boxjavalibv2-3.0.11-SNAPSHOT-sources" level="project" />
+    <orderEntry type="library" name="libs" level="project" />
   </component>
 </module>
 

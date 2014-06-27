@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="appengine-try-java-1.0">
+    <output-path>$PROJECT_DIR$/out/artifacts/appengine-try-java-1.0</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="appengine-try-java" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="AppEngine API" />
+          <element id="library" level="project" name="boxjavalibv2-3.0.11-SNAPSHOT-javadoc" />
+          <element id="library" level="project" name="boxjavalibv2-3.0.11-SNAPSHOT" />
+          <element id="dir-copy" path="$PROJECT_DIR$/libs" />
+        </element>
+      </element>
+      <element id="library" level="project" name="boxjavalibv2-3.0.11-SNAPSHOT" />
+      <element id="library" level="project" name="boxjavalibv2-3.0.11-SNAPSHOT-javadoc" />
+      <element id="library" level="project" name="boxjavalibv2-3.0.11-SNAPSHOT-sources" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/webapp" />
+    </root>
+  </artifact>
+</component>

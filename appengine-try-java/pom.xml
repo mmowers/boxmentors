@@ -71,7 +71,7 @@
     </dependencies>
       
     <build>
-        <outputDirectory>target/${project.artifactId}/WEB-INF/classes</outputDirectory> 
+        <outputDirectory>out/artifacts/${project.artifactId}/WEB-INF/classes</outputDirectory>
                                    
         <plugins>
             <plugin>

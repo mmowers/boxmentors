@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="boxjavalibv2-3.0.11-SNAPSHOT-sources">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../box-java-sdk-v2/target/boxjavalibv2-3.0.11-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

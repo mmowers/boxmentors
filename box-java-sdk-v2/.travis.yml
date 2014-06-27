@@ -1,0 +1,4 @@
+language: java
+env: DEBUG=1
+install: true
+script: "./build.sh"
